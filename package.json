@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Auto purge files from Cloudflare cache.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BinaryZeph/cloudflare-cachepurge.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js",
-    "jscs": "jscs index.js"
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "BinaryZeph",
   "license": "ISC",
   "dependencies": {
+    "cloudflare": "^2.1.1",
     "node-validator": "^0.1.27",
     "node-watch": "^0.5.5",
     "winston": "^2.3.1"
