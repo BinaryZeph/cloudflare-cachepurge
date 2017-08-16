@@ -1,0 +1,7 @@
+{
+  "cloudflareEmail": "cloudFlareEmailAddress...",
+  "cloudflareKey": "cloudflareKey...",
+  "sites": [
+    {"url": "https://mysite.com/", "dir": "/home/mysite/public_html/", "cloudflareZone":"zoneKey..."}
+  ]
+}
